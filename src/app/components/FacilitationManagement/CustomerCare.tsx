@@ -3,7 +3,7 @@ import React from 'react'
 
 const CustomerCare = () => {
   return (
-    <div className="relative w-full max-w-[1300px] mx-auto    max-md:my-4">
+    <div className="relative w-full max-w-[1300px] mx-auto  bg-white  max-md:my-4">
       {/* Background Image */}
       <Image
         src="/customercarecover.png"

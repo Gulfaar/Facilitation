@@ -118,7 +118,7 @@ const WhereWeWork = () => {
   ]
 
   return (
-    <div className="px-4 md:px-15 py-8 md:py-16 sm:px-10">
+    <div className="px-4 md:px-15 py-8 md:py-16 bg-white sm:px-10">
       <h1 className="text-[#2E5F5C] text-3xl md:text-5xl font-semibold mb-6 md:mb-12 text-center md:text-left">Where We Work</h1>
 
       <div 

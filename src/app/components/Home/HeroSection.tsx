@@ -68,11 +68,11 @@ const HeroSection = () => {
         <div className="md:w-[80%]  md:px-0">
 
          <div className="flex mt-[-80px] md:mt-0  ">
-          <h1 className="text-[30px]  md:text-[55px] inline-flex font-bold">Empowering Industries with Smart, Scalable Solutions</h1>
+          <h1 className="text-[30px]  md:text-[55px] inline-flex font-bold">Powering Oil & Gas Operations with Precision and Performance</h1>
           </div>
 
           <p className="text-xl md:text-xl  mt-12 md:mt-2">
-            Your One-Stop Partner for AI, BPO, Recruitment, HR, Infrastructure, Training and Sustainable Innovation
+          Your Trusted Partner for Offshore Services, Asset Integrity, Subsea Solutions, Fabrication, EHS, and Technical Manpower Deployment
            
           </p>
         </div>
