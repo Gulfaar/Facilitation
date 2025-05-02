@@ -20,7 +20,7 @@ export default function Home() {
       <WhyGulfaar />
       
       <WhereWeWork />
-      <div className='px-10'>
+      <div className='px-10 bg-white'>
         <CustomerCare />
       </div>
       <OurProjects />

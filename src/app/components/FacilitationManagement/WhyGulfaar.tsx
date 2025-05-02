@@ -3,7 +3,7 @@ import React from 'react'
 
 const WhyGulfaar = () => {
   return (
-    <div className="bg-gradient-to-r from-[#2E5F5C]/10 to-[#2E5F5C]/10 py-16 px-4 md:px-24">
+    <div className="bg-gradient-to-r bg-white from-[#2E5F5C]/10 to-[#2E5F5C]/10 py-16 px-4 md:px-24">
       <h1 className="text-[#2E5F5C] text-3xl md:text-4xl font-bold mb-12 text-center md:text-left">Why Gulfaar?</h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
