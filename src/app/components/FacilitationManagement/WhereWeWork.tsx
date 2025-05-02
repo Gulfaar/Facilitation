@@ -126,7 +126,7 @@ const WhereWeWork = () => {
         className="flex gap-4 md:gap-6 overflow-x-auto pb-8 scrollbar-hide"
       >
         {workplaces.map((workplace, index) => (
-          <div key={index} className="w-[380px] h-[520px] flex-shrink-0 max-md:w-[280px] max-md:h-[420px]">
+          <div key={index} className="w-[380px]  md:h-[520px] flex-shrink-0 max-md:w-[280px] max-md:h-[350px]">
             <div className="h-full rounded-[32px] p-[10px] bg-gradient-to-r from-[#2E5F5C] to-[#00A651] max-md:rounded-[24px] max-md:p-[8px]">
               <div className="h-full rounded-2xl overflow-hidden bg-gradient-to-r from-[#2E5F5C] to-[#00A651] max-md:rounded-xl">
                 <div className="relative w-full h-[300px] max-md:h-[200px]">

@@ -127,7 +127,7 @@ const Header: React.FC<HeaderProps> = ({title, subtitle}) => {
         {isModalOpen && (
         <div className="fixed top-0 left-0 w-full h-full bg-white bg-opacity-98 z-50 overflow-y-auto scrollbar-thin scrollbar-thumb-white scrollbar-track-transparent">
 
-          <div className="fixed top-10 left-8 z-50 h-10 w-auto">
+          <div className="fixed top-5 left-8 bg-white w-full z-50 h-10 ">
             <Image
               src="/blacklogo.png"
               alt="Company Logo"
@@ -193,7 +193,7 @@ const Header: React.FC<HeaderProps> = ({title, subtitle}) => {
                 {isTrainingOpen ? <FiChevronUp /> : <FiChevronDown />}
               </button>
               {isTrainingOpen && (
-      <div className="pl-4 max-h-60 overflow-y-auto scrollbar-thin scrollbar-thumb-white scrollbar-track-transparent">
+      <div className="pl-4 h-full overflow-y-auto scrollbar-thin scrollbar-thumb-white scrollbar-track-transparent">
       <Link
         href="/OilGas"
         className="block px-10 py-3 text-[22px] text-black hover:bg-gray-700  transition-all duration-200 "

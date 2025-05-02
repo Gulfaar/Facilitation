@@ -63,16 +63,20 @@ const HeroSection = () => {
       </div>
 
 
-      <div className="flex flex-col items-center justify-center md:items-start md:justify-start   w-full mt-[-30px] md:mt-0  h-full text-left px-6">
-        <div className=" md:px-0">
-          <h1 className="text-[30px] md:text-[55px] font-bold">Empowering Industries with</h1>
-          <h1 className="text-[30px] md:text-[55px] font-bold">Smart, Scalable Solutions</h1>
-          <p className="text-xl md:text-xl mt-2">
-            Your One-Stop Partner for AI, BPO, Recruitment, HR,
-            <span className="block md:inline"><br/>Infrastructure, Training and Sustainable Innovation</span>
+      <div className="flex flex-col items-center justify-center  md:items-start md:justify-start mr-[40px]   w-full mt-[-30px] 
+      md:mt-0  h-full text-left ">
+        <div className="md:w-[80%]  md:px-0">
+
+         <div className="flex mt-[-80px] md:mt-0  ">
+          <h1 className="text-[30px]  md:text-[55px] inline-flex font-bold">Empowering Industries with Smart, Scalable Solutions</h1>
+          </div>
+
+          <p className="text-xl md:text-xl  mt-12 md:mt-2">
+            Your One-Stop Partner for AI, BPO, Recruitment, HR, Infrastructure, Training and Sustainable Innovation
+           
           </p>
         </div>
-        <div>
+        <div className="flex  w-full items-start  ">
           <Link href="/ContactUs">
         <button type="button" className="px-14 py-3.5 cursor-pointer text-base mt-15 md:mt-8  hover:bg-[#02ab44] hover:text-white text-[#02ab44] bg-white  rounded-xl text-center font-bold  ">Contact Us</button>
         </Link>
@@ -148,7 +152,7 @@ const NavBar = () => {
       {isModalOpen && (
         <div className="fixed top-0 left-0 w-full h-full bg-white bg-opacity-98 z-50 overflow-y-auto scrollbar-thin scrollbar-thumb-white scrollbar-track-transparent">
 
-          <div className="fixed top-10 left-8 z-50 h-10 w-auto">
+          <div className="fixed top-5 left-8 z-50 h-10 w-auto">
             <Image
               src="/blacklogo.png"
               alt="Company Logo"
@@ -214,7 +218,7 @@ const NavBar = () => {
                 {isTrainingOpen ? <FiChevronUp /> : <FiChevronDown />}
               </button>
               {isTrainingOpen && (
-      <div className="pl-4 max-h-60 overflow-y-auto scrollbar-thin scrollbar-thumb-white scrollbar-track-transparent">
+      <div className="pl-4 h-full overflow-y-auto scrollbar-thin scrollbar-thumb-white scrollbar-track-transparent">
       <Link
         href="/OilGas"
         className="block px-10 py-3 text-[22px] text-black hover:bg-gray-700  transition-all duration-200 "

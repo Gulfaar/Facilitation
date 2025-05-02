@@ -9,7 +9,7 @@ import Footer from "./Footer";
 // Dynamically import the component that uses lottie-react
 
 
-function HeroWorked() {
+function  HeroWorked() {
   return (
     <div>
       <HeroSection />
